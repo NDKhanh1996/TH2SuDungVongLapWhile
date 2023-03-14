@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sử dụng vòng lặp while</title>
+</head>
+<body>
+<script>
+  // let alertbox = 0  //1
+  // let number = 0
+  // while (alertbox !== -1){ //2
+  //   alertbox = +prompt('Nhập số vào đây')
+  //   if (alertbox !== -1) {
+  //     number += alertbox;
+  //     prompt("Số bạn vừa nhập là: " + alertbox);
+  //   }
+  // }
+  //
+  // prompt("Tổng các số đã nhập là: " + number);
+  let num = parseInt(prompt("Enter a number: "));
+  let total = 0;
+  while( num !== -1 ) {
+    num = parseInt(prompt("Enter a number: "));
+    alert(num);
+    //phần code tính tổng
+    total += num;
+    alert(total)
+  }
+</script>
+</body>
+</html>
